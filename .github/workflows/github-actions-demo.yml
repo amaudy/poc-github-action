@@ -17,4 +17,4 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Test apt-get
         run: |
-          which sudo
+          sudo apt-get update
